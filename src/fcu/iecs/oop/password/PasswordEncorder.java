@@ -7,7 +7,7 @@ public class PasswordEncorder {
 		password=password.replace('e', '3').replace('E', '3');
 		password=password.replace('i', '1').replace('I', '1');
 		password=password.replace('o', '0').replace('O', '0');
-		password=password.replace('u', '7').replace('U', '7');
+		password=password.replace('t', '7').replace('T', '7');
 		return password;
 	}
 
